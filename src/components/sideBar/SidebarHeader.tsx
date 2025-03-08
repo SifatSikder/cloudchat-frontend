@@ -8,8 +8,8 @@ import {Button} from "@/components/ui/button.tsx";
 const SidebarHeader = ()=>{
     return (
         <>
-            <div id="topnavBar" className="flex justify-between">
-                <div id="logo-label" className="w-3/5 flex items-center gap-3 ">
+            <div id="topnavBar" className="flex justify-between items-center">
+                <div id="logo-label" className="w-full h-auto flex items-center gap-3 ">
                     <Logo/>
                     <LogoLabel/>
                 </div>
