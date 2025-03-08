@@ -2,7 +2,10 @@ import * as React from "react";
 
 const AddFile = () => {
     return (
-        <div>Add File</div>
+        <>
+            <div>Add Files</div>
+
+        </>
     );
 };
 

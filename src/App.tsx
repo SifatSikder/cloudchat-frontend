@@ -1,5 +1,5 @@
 import './App.css'
-import AddFile from "@/components/AddFile.tsx";
+import AddFile from "@/components/addFile/AddFile.tsx";
 import Sidebar from "@/components/sideBar/Sidebar.tsx";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
                   <div className="w-1/5 h-full rounded-3xl flex flex-col p-3 justify-between">
                       <Sidebar/>
                   </div>
-                  <div className="border border-blue-400 w-4/5 h-full rounded-2xl pt-10 pb-5 px-5 gap-20 bg-[#2B2B2B]">
+                  <div className="border border-blue-400 w-full h-full rounded-2xl pt-10 pb-5 px-5 gap-y-20 bg-[#2B2B2B] flex flex-col justify-between items-center">
                       <AddFile/>
                   </div>
           </div>
