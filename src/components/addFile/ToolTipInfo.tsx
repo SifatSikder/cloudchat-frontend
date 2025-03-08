@@ -4,7 +4,7 @@ import {ReactComponent as ToolTipIcon} from "@/assets/icons/tooltipInfo.svg"
 export default function ToolTipInfo() {
     return (
         <TooltipProvider>
-            <Tooltip className="">
+            <Tooltip>
                 <TooltipTrigger asChild>
                     <ToolTipIcon/>
                 </TooltipTrigger>
