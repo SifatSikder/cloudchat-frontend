@@ -11,7 +11,7 @@ interface AttachedFileProps {
 
 const AttachedFile: FC<AttachedFileProps> = ({ fileIcon: FileIcon, name }) => {
     return (
-       <div className="w-auto h-[30px] rounded-[20px] py-[7px] pr-[7px] pl-3 gap-[14px] flex justify-between items-center">
+       <div className="w-auto h-[30px] rounded-[20px] py-[7px] pr-[7px] pl-3 gap-[14px] flex justify-between items-center bg-[#2B2B2B]">
            <div id="fileInfo" className="flex justify-between items-center gap-2">
                <FileIcon />
                <span className="font-normal text-[14px] leading-[100%] tracking-normal align-middle text-white">{name}</span>

@@ -8,9 +8,11 @@ import {ReactComponent as Dropbox} from "@/assets/icons/dropbox.svg"
 import {ReactComponent as Gdrive} from "@/assets/icons/gdrive.svg"
 import {ReactComponent as PdfIcon} from "@/assets/icons/pdf.svg"
 import {ReactComponent as DocIcon} from "@/assets/icons/doc.svg"
+import {ReactComponent as DeepDive} from "@/assets/icons/deepDive.svg"
 
 import {Button} from "@/components/ui/button.tsx";
 import AttachedFile from "@/components/ui/attachedFiles.tsx";
+import ToolTipInfo from "@/components/addFile/ToolTipInfo.tsx";
 
 const AddFile = () => {
     return (
@@ -57,11 +59,20 @@ const AddFile = () => {
                 />
             </div>
 
-            <div id="attachedFiles" className="w-3/4 h-auto rounded-[34px] p-4 gap-1.5 bg-[#242424] flex justify-start items-center">
+            <div id="attachedFiles" className="w-3/4 h-auto rounded-[34px] p-4 gap-1.5 bg-[#242424] flex justify-start items-center -mt-15">
                 <AttachedFile fileIcon = {PdfIcon} name="Report_file.pdf"/>
                 <AttachedFile fileIcon = {DocIcon} name="Report_file.pdf"/>
             </div>
 
+            <div id="startButtons" className="flex justify-center items-center gap-4">
+                <Button className="w-[240px] h-[60px] border-[1px] px-[32px] border-[#FB9937]">Start</Button>
+                <span>or</span>
+                <Button className="w-auto h-[60px] rounded-[43px] border-[1px] pl-8 pr-10 py-[22px] bg-[linear-gradient(180deg,#FFBF00_-9.93%,#FB9937_85.88%)] border-[#FFFFFF4D] gap-[10px]">
+                    <DeepDive/>
+                    <span>Start with Deep Dive</span>
+                </Button>
+                <ToolTipInfo/>
+            </div>
         </>
     );
 };
