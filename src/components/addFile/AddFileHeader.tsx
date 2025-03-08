@@ -13,8 +13,6 @@ const AddFileHeader = ()=>{
                 <span className="font-normal text-[14px] leading-[130%] tracking-[1%] text-center align-middle text-[#B7B7B7]">Your files will not be stored on our servers and no AI models will be trained.</span>
                 <span className="font-semibold text-[14px] leading-[130%] tracking-[1%] text-center align-middle text-[#F37F0C]">Supported File Types: .docx, .pdf, .epub, and many text filetypes</span>
             </div>
-
-
         </>
 
     )

@@ -10,7 +10,7 @@ function App() {
                   <div className="w-1/5 h-full rounded-3xl flex flex-col p-3 justify-between">
                       <Sidebar/>
                   </div>
-                  <div className="border border-blue-400 w-full h-full rounded-2xl pt-10 pb-5 px-5 gap-y-20 bg-[#2B2B2B] flex flex-col items-center">
+                  <div className="border border-orange-400 w-full h-full rounded-2xl pt-10 pb-5 px-5 gap-y-20 bg-[#2B2B2B] flex flex-col items-center">
                       <AddFile/>
                   </div>
           </div>
